@@ -1,0 +1,27 @@
+.news-list-container {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.news-list-container ul {
+    list-style-type: none; /* Remove dots */
+    padding: 0;
+    margin: 0;
+}
+
+.news-list-container li {
+    margin-bottom: 10px;
+}
+
+.news-list-container li .news-date {
+    font-size: 12px; /* Smaller font size for date */
+    color: #555; /* Optional: Add a different color for the date */
+}
+
+.news-list-container li .news-item {
+    font-size: 16px; /* Normal font size for news */
+}
+
+.no-bullets {
+    list-style-type: none;
+}
